@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Report card</title>
+		<meta name="description" content="Benchmark web pages over time.">
+		<meta name="generator" content="{{ eleventy.generator }}">
+		<link rel="preload" href="{{ '/atkinson-hyperlegible.woff2' | url }}" as="font" type="font/woff2" crossorigin>
+		<link rel="stylesheet" href="{{ '/style.css' | url }}">
+		<script>
+		document.documentElement.classList.add("js");
+		</script>
+	</head>
+	<body>
+		<h1 class="speedlify-hed">Report card</h1>
+
+		{{ content | safe }}
+
+		<footer>
+			MIT licensed. Read <a href="https://www.zachleat.com/web/speedlify/">the blog post</a>. Source code on <a href="https://github.com/zachleat/speedlify/">GitHub</a>. Created by <a href="https://www.zachleat.com/">@zachleat</a>.
+		</footer>
+
+		<script defer src="{{ '/chartist.js' | url }}"></script>
+		<script defer src="{{ '/script.js' | url }}"></script>
+	</body>
+</html>
