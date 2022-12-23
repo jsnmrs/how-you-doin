@@ -1,0 +1,67 @@
+{
+  "url": "https://jasonmorris.com/bikes/deck-dancing-via-tripod/",
+  "requestedUrl": "https://jasonmorris.com/bikes/deck-dancing-via-tripod/",
+  "timestamp": 1671738471101,
+  "ranks": {
+    "hundos": 6,
+    "performance": 1,
+    "accessibility": 6,
+    "cumulative": 6
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 0.92,
+    "total": 392
+  },
+  "firstContentfulPaint": 808.894,
+  "firstMeaningfulPaint": 824.894,
+  "speedIndex": 808.894,
+  "largestContentfulPaint": 1051.894,
+  "totalBlockingTime": 2.5,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 852.394,
+  "maxPotentialFirstInputDelay": 55,
+  "timeToFirstByte": 64.88400000000001,
+  "weight": {
+    "summary": "3 requests • 29 KiB",
+    "total": 29279,
+    "image": 8955,
+    "imageCount": 1,
+    "script": 0,
+    "scriptCount": 0,
+    "document": 4209,
+    "font": 16115,
+    "fontCount": 1,
+    "stylesheet": 0,
+    "stylesheetCount": 0,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 2,
+    "+weight.total": 5,
+    "-weight.document": 3,
+    "+weight.document": 4,
+    "-weight.script": 1,
+    "+weight.script": 1,
+    "-weight.image": 1,
+    "+weight.image": 5,
+    "-weight.font": 1,
+    "+weight.font": 2,
+    "+weight.fontCount": 1,
+    "-timeToFirstByte": 5,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 1
+  },
+  "axe": {
+    "passes": 72,
+    "violations": 0
+  }
+}

@@ -1,0 +1,36 @@
+name: Run performance scans
+
+on:
+  workflow_dispatch: # enable run button on github.com
+  schedule:
+    - cron: "0 2 * * *" # Run daily at 2:00am
+
+jobs:
+  scan:
+    name: Performance scan
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout branch
+        uses: actions/checkout@v3
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: "lts/*"
+          cache: "npm"
+          cache-dependency-path: "./package-lock.json"
+      - name: Install dependencies
+        run: npm install
+      - name: Run scans
+        run: npm run test-pages
+      - name: Build report site
+        run: npm run build
+      - name: Set current date as env variable
+        run: echo "NOW=$(date +'%Y-%m-%d')" >> $GITHUB_ENV
+      - name: Commit report to repo
+        run: |
+          git pull
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add --all
+          git commit -m ":chart_with_downwards_trend: performance report from ${{ env.NOW }}"
+          git push
