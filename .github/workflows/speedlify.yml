@@ -9,6 +9,8 @@ jobs:
   scan:
     name: Performance scan
     runs-on: ubuntu-latest
+    outputs:
+      diff: ${{ steps.changes.outputs.diff}}
     steps:
       - name: Checkout branch
         uses: actions/checkout@v3
@@ -26,6 +28,20 @@ jobs:
         run: npm run build
       - name: Set current date as env variable
         run: echo "NOW=$(date +'%Y-%m-%d')" >> $GITHUB_ENV
+      - name: Get changed files
+        id: changes
+        run: |
+          echo "::set-output name=all::$(git diff --name-only --diff-filter=ACMRT ${{ github.event.pull_request.base.sha }} ${{ github.sha }} | xargs)"
+
+  push-back:
+    name: Push results to repo
+    runs-on: ubuntu-latest
+    needs: scan
+    # only run there are changed files
+    if: ${{needs.scan.outputs.diff}}
+    steps:
+      - name: echo changed files
+        run: echo ${{needs.changedfiles.outputs.diff}}
       - name: Commit report to repo
         run: |
           git pull
