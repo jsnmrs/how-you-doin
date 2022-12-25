@@ -3,7 +3,7 @@ module.exports = {
 	description: "Personal web projects",
 	skip: false,
 	options: {
-		frequency: 60 * 23, // 23 hours
+		frequency: 60 * 12, // 12 hours
 		freshChrome: "run"
 	},
 	urls: [
