@@ -1,0 +1,67 @@
+{
+  "url": "https://bmxfeed.com/video",
+  "requestedUrl": "https://bmxfeed.com/video",
+  "timestamp": 1672540551207,
+  "ranks": {
+    "hundos": 1,
+    "performance": 6,
+    "accessibility": 3,
+    "cumulative": 1
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 937.8623,
+  "firstMeaningfulPaint": 962.8623,
+  "speedIndex": 937.8623,
+  "largestContentfulPaint": 1158.8623,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 962.8623,
+  "maxPotentialFirstInputDelay": 50,
+  "timeToFirstByte": 211.316,
+  "weight": {
+    "summary": "31 requests • 490 KiB",
+    "total": 502154,
+    "image": 498497,
+    "imageCount": 30,
+    "script": 0,
+    "scriptCount": 0,
+    "document": 3657,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 0,
+    "stylesheetCount": 0,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 11,
+    "+weight.total": 3,
+    "-weight.document": 5,
+    "+weight.document": 9,
+    "-weight.script": 1,
+    "+weight.script": 8,
+    "-weight.image": 7,
+    "+weight.image": 1,
+    "-weight.font": 1,
+    "+weight.font": 7,
+    "+weight.fontCount": 4,
+    "-timeToFirstByte": 13,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 10
+  },
+  "axe": {
+    "passes": 391,
+    "violations": 0
+  }
+}
