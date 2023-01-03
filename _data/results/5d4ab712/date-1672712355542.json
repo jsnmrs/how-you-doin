@@ -1,0 +1,67 @@
+{
+  "url": "https://doublegreat.dev/",
+  "requestedUrl": "https://doublegreat.dev/",
+  "timestamp": 1672712748507,
+  "ranks": {
+    "hundos": 12,
+    "performance": 12,
+    "accessibility": 7,
+    "cumulative": 12
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.86,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 386
+  },
+  "firstContentfulPaint": 817.331,
+  "firstMeaningfulPaint": 2420.331,
+  "speedIndex": 817.331,
+  "largestContentfulPaint": 2420.331,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.3952395833333333,
+  "timeToInteractive": 2420.331,
+  "maxPotentialFirstInputDelay": 22,
+  "timeToFirstByte": 18.521,
+  "weight": {
+    "summary": "10 requests • 366 KiB",
+    "total": 374620,
+    "image": 52891,
+    "imageCount": 2,
+    "script": 575,
+    "scriptCount": 1,
+    "document": 3937,
+    "font": 308468,
+    "fontCount": 3,
+    "stylesheet": 2873,
+    "stylesheetCount": 1,
+    "thirdParty": 58767,
+    "thirdPartyCount": 4
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 11,
+    "+weight.total": 3,
+    "-weight.document": 6,
+    "+weight.document": 8,
+    "-weight.script": 1,
+    "+weight.script": 7,
+    "-weight.image": 4,
+    "+weight.image": 4,
+    "-weight.font": 4,
+    "+weight.font": 3,
+    "+weight.fontCount": 1,
+    "-timeToFirstByte": 2,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 10
+  },
+  "axe": {
+    "passes": 169,
+    "violations": 0
+  }
+}
