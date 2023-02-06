@@ -1,0 +1,67 @@
+{
+  "url": "https://jsnmrs.github.io/wordup/",
+  "requestedUrl": "https://jsnmrs.github.io/wordup/",
+  "timestamp": 1675650204947,
+  "ranks": {
+    "hundos": 12,
+    "performance": 12,
+    "accessibility": 13,
+    "cumulative": 12
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.98,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 0.94,
+    "total": 392
+  },
+  "firstContentfulPaint": 828.177,
+  "firstMeaningfulPaint": 828.177,
+  "speedIndex": 2448.1818952595304,
+  "largestContentfulPaint": 828.177,
+  "totalBlockingTime": 92.5,
+  "cumulativeLayoutShift": 0.003487847222222222,
+  "timeToInteractive": 3555.2055,
+  "maxPotentialFirstInputDelay": 141,
+  "timeToFirstByte": 52.626,
+  "weight": {
+    "summary": "16 requests • 245 KiB",
+    "total": 251381,
+    "image": 19081,
+    "imageCount": 1,
+    "script": 219549,
+    "scriptCount": 6,
+    "document": 1955,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 10503,
+    "stylesheetCount": 7,
+    "thirdParty": 248141,
+    "thirdPartyCount": 14
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 10,
+    "+weight.total": 4,
+    "-weight.document": 2,
+    "+weight.document": 12,
+    "-weight.script": 4,
+    "+weight.script": 1,
+    "-weight.image": 3,
+    "+weight.image": 5,
+    "-weight.font": 1,
+    "+weight.font": 7,
+    "+weight.fontCount": 2,
+    "-timeToFirstByte": 8,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 5
+  },
+  "axe": {
+    "passes": 470,
+    "violations": 1
+  }
+}
