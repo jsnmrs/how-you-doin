@@ -1,0 +1,67 @@
+{
+  "url": "https://jasonmorris.com/bikes/where-do-you-see-yourself-in-20-years/",
+  "requestedUrl": "https://jasonmorris.com/bikes/where-do-you-see-yourself-in-20-years/",
+  "timestamp": 1690165352175,
+  "ranks": {
+    "hundos": 1,
+    "performance": 1,
+    "accessibility": 10,
+    "cumulative": 1
+  },
+  "lighthouse": {
+    "version": "10.0.2",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 792.065,
+  "firstMeaningfulPaint": 792.065,
+  "speedIndex": 792.065,
+  "largestContentfulPaint": 909.065,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 792.065,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 48.50399999999999,
+  "weight": {
+    "summary": "3 requests • 108 KiB",
+    "total": 110218,
+    "image": 89077,
+    "imageCount": 1,
+    "script": 0,
+    "scriptCount": 0,
+    "document": 5036,
+    "font": 16105,
+    "fontCount": 1,
+    "stylesheet": 0,
+    "stylesheetCount": 0,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 11,
+    "+weight.total": 3,
+    "-weight.document": 9,
+    "+weight.document": 5,
+    "-weight.script": 1,
+    "+weight.script": 5,
+    "-weight.image": 6,
+    "+weight.image": 2,
+    "-weight.font": 1,
+    "+weight.font": 2,
+    "+weight.fontCount": 1,
+    "-timeToFirstByte": 3,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 9
+  },
+  "axe": {
+    "passes": 86,
+    "violations": 0
+  }
+}
