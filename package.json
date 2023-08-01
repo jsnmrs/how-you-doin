@@ -36,7 +36,7 @@
     "chartist": "^0.11.4",
     "cross-zip": "^4.0.0",
     "dotenv": "^16.3.1",
-    "fast-glob": "^3.3.0",
+    "fast-glob": "^3.3.1",
     "lodash": "^4.17.21",
     "performance-leaderboard": "^10.0.0",
     "short-hash": "^1.0.0",
