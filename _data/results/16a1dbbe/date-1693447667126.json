@@ -1,0 +1,67 @@
+{
+  "url": "https://jsnmrs.github.io/since/",
+  "requestedUrl": "https://jsnmrs.github.io/since/",
+  "timestamp": 1693448058029,
+  "ranks": {
+    "hundos": 6,
+    "performance": 3,
+    "accessibility": 12,
+    "cumulative": 6
+  },
+  "lighthouse": {
+    "version": "10.0.2",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 856.7784,
+  "firstMeaningfulPaint": 856.7784,
+  "speedIndex": 856.7784,
+  "largestContentfulPaint": 1607.4256,
+  "totalBlockingTime": 14.5,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 921.2784,
+  "maxPotentialFirstInputDelay": 88,
+  "timeToFirstByte": 11.821,
+  "weight": {
+    "summary": "4 requests • 22 KiB",
+    "total": 23032,
+    "image": 0,
+    "imageCount": 0,
+    "script": 20862,
+    "scriptCount": 2,
+    "document": 2055,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 0,
+    "stylesheetCount": 0,
+    "thirdParty": 23032,
+    "thirdPartyCount": 4
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 6,
+    "+weight.total": 8,
+    "-weight.document": 2,
+    "+weight.document": 12,
+    "-weight.script": 2,
+    "+weight.script": 3,
+    "-weight.image": 1,
+    "+weight.image": 8,
+    "-weight.font": 1,
+    "+weight.font": 3,
+    "+weight.fontCount": 2,
+    "-timeToFirstByte": 1,
+    "-totalBlockingTime": 4,
+    "-largestContentfulPaint": 13
+  },
+  "axe": {
+    "passes": 77,
+    "violations": 0
+  }
+}
