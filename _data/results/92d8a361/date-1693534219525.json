@@ -1,0 +1,67 @@
+{
+  "url": "https://doublegreat.dev/listen/punctuation-in-alt-text/",
+  "requestedUrl": "https://doublegreat.dev/listen/punctuation-in-alt-text/",
+  "timestamp": 1693534498509,
+  "ranks": {
+    "hundos": 13,
+    "performance": 13,
+    "accessibility": 1,
+    "cumulative": 13
+  },
+  "lighthouse": {
+    "version": "10.0.2",
+    "performance": 0.74,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 374
+  },
+  "firstContentfulPaint": 1749.431,
+  "firstMeaningfulPaint": 1749.431,
+  "speedIndex": 1749.431,
+  "largestContentfulPaint": 1749.431,
+  "totalBlockingTime": 1289,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 3088.431,
+  "maxPotentialFirstInputDelay": 1339,
+  "timeToFirstByte": 51.138999999999996,
+  "weight": {
+    "summary": "58 requests • 43 KiB",
+    "total": 44014,
+    "image": 0,
+    "imageCount": 0,
+    "script": 33771,
+    "scriptCount": 1,
+    "document": 7784,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 0,
+    "stylesheetCount": 0,
+    "thirdParty": 36230,
+    "thirdPartyCount": 57
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 8,
+    "+weight.total": 6,
+    "-weight.document": 12,
+    "+weight.document": 2,
+    "-weight.script": 3,
+    "+weight.script": 2,
+    "-weight.image": 1,
+    "+weight.image": 8,
+    "-weight.font": 1,
+    "+weight.font": 4,
+    "+weight.fontCount": 2,
+    "-timeToFirstByte": 7,
+    "-totalBlockingTime": 2,
+    "-largestContentfulPaint": 13
+  },
+  "axe": {
+    "passes": 1929,
+    "violations": 0
+  }
+}
