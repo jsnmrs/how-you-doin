@@ -38,7 +38,7 @@
     "dotenv": "^16.3.1",
     "fast-glob": "^3.3.1",
     "lodash": "^4.17.21",
-    "performance-leaderboard": "^10.0.0",
+    "performance-leaderboard": "^11.0.0",
     "short-hash": "^1.0.0",
     "speedlify-score": "^3.0.0"
   }
