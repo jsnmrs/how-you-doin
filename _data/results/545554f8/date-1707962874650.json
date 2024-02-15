@@ -1,0 +1,67 @@
+{
+  "url": "https://jsnmrs.github.io/pdfcheck/",
+  "requestedUrl": "https://jsnmrs.github.io/pdfcheck/",
+  "timestamp": 1707963005640,
+  "ranks": {
+    "hundos": 10,
+    "performance": 2,
+    "accessibility": 5,
+    "cumulative": 9
+  },
+  "lighthouse": {
+    "version": "11.3.0",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 783.2605,
+  "firstMeaningfulPaint": 783.2605,
+  "speedIndex": 783.2605,
+  "largestContentfulPaint": 783.2605,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 783.2605,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 3.3069999999999986,
+  "weight": {
+    "summary": "2 requests • 6.3 KiB",
+    "total": 6446,
+    "image": 0,
+    "imageCount": 0,
+    "script": 2938,
+    "scriptCount": 1,
+    "document": 3508,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 0,
+    "stylesheetCount": 0,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 2,
+    "total": 2
+  },
+  "sidequests": {
+    "-weight.total": 3,
+    "+weight.total": 11,
+    "-weight.document": 3,
+    "+weight.document": 11,
+    "-weight.script": 1,
+    "+weight.script": 4,
+    "-weight.image": 1,
+    "+weight.image": 8,
+    "-weight.font": 1,
+    "+weight.font": 4,
+    "+weight.fontCount": 2,
+    "-timeToFirstByte": 2,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 2
+  },
+  "axe": {
+    "passes": 231,
+    "violations": 0
+  }
+}
