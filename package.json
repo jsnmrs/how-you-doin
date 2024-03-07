@@ -6,8 +6,8 @@
   "scripts": {
     "clean": "rm -rf _data/results/* && rm -rf .log && rm -rf _site",
     "test-pages": "node run-tests",
-    "build": "npx @11ty/eleventy --quiet --pathprefix=grades",
-    "start": "npx @11ty/eleventy --quiet --pathprefix=grades --serve",
+    "build": "npx @11ty/eleventy --quiet --pathprefix=how-you-doin",
+    "start": "npx @11ty/eleventy --quiet --pathprefix=how-you-doin --serve",
     "zip-results": "node zip-results.js",
     "build-production": "npm run test-pages && npm run build && npm run zip-results"
   },
