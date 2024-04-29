@@ -1,0 +1,67 @@
+{
+  "url": "https://code.jasonmorris.com/pdfcheck/",
+  "requestedUrl": "https://code.jasonmorris.com/pdfcheck/",
+  "timestamp": 1714356883126,
+  "ranks": {
+    "hundos": 10,
+    "performance": 11,
+    "accessibility": 5,
+    "cumulative": 9
+  },
+  "lighthouse": {
+    "version": "11.7.0",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 929.7065,
+  "firstMeaningfulPaint": 929.7065,
+  "speedIndex": 929.7065,
+  "largestContentfulPaint": 929.7065,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 929.7065,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 5.466000000000001,
+  "weight": {
+    "summary": "2 requests • 6.3 KiB",
+    "total": 6459,
+    "image": 0,
+    "imageCount": 0,
+    "script": 2971,
+    "scriptCount": 1,
+    "document": 3488,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 0,
+    "stylesheetCount": 0,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 3,
+    "+weight.total": 11,
+    "-weight.document": 3,
+    "+weight.document": 11,
+    "-weight.script": 1,
+    "+weight.script": 4,
+    "-weight.image": 1,
+    "+weight.image": 8,
+    "-weight.font": 1,
+    "+weight.font": 3,
+    "+weight.fontCount": 2,
+    "-timeToFirstByte": 2,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 8
+  },
+  "axe": {
+    "passes": 231,
+    "violations": 0
+  }
+}
