@@ -1,0 +1,67 @@
+{
+  "url": "https://jasonmorris.com/resume/",
+  "requestedUrl": "https://jasonmorris.com/resume/",
+  "timestamp": 1718072103865,
+  "ranks": {
+    "hundos": 8,
+    "performance": 7,
+    "accessibility": 6,
+    "cumulative": 7
+  },
+  "lighthouse": {
+    "version": "11.7.0",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 887.5281,
+  "firstMeaningfulPaint": 887.5281,
+  "speedIndex": 887.5281,
+  "largestContentfulPaint": 887.5281,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 887.5281,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 80.94999999999999,
+  "weight": {
+    "summary": "2 requests • 20.4 KiB",
+    "total": 20934,
+    "image": 0,
+    "imageCount": 0,
+    "script": 0,
+    "scriptCount": 0,
+    "document": 4969,
+    "font": 15965,
+    "fontCount": 1,
+    "stylesheet": 0,
+    "stylesheetCount": 0,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 5,
+    "+weight.total": 9,
+    "-weight.document": 9,
+    "+weight.document": 5,
+    "-weight.script": 1,
+    "+weight.script": 5,
+    "-weight.image": 1,
+    "+weight.image": 8,
+    "-weight.font": 1,
+    "+weight.font": 2,
+    "+weight.fontCount": 1,
+    "-timeToFirstByte": 5,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 7
+  },
+  "axe": {
+    "passes": 197,
+    "violations": 0
+  }
+}
