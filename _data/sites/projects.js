@@ -14,6 +14,7 @@ module.exports = {
 		"https://bmxfeed.com",
 		"https://bmxfeed.com/video",
 		"https://code.jasonmorris.com/pdfcheck/",
+		"https://code.jasonmorris.com/presents/",
 		"https://code.jasonmorris.com/wordup/",
 		"https://code.jasonmorris.com/since/",
 		"https://doublegreat.dev",
