@@ -1,0 +1,67 @@
+{
+  "url": "https://code.jasonmorris.com/since/",
+  "requestedUrl": "https://code.jasonmorris.com/since/",
+  "timestamp": 1730428351994,
+  "ranks": {
+    "hundos": 6,
+    "performance": 2,
+    "accessibility": 13,
+    "cumulative": 6
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 774.0191,
+  "firstMeaningfulPaint": 774.0191,
+  "speedIndex": 774.0191,
+  "largestContentfulPaint": 1516.0884,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 774.0191,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 2.608,
+  "weight": {
+    "summary": "4 requests • 27.5 KiB",
+    "total": 28181,
+    "image": 0,
+    "imageCount": 0,
+    "script": 25903,
+    "scriptCount": 2,
+    "document": 1981,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 0,
+    "stylesheetCount": 0,
+    "thirdParty": 24981,
+    "thirdPartyCount": 1
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 6,
+    "+weight.total": 9,
+    "-weight.document": 2,
+    "+weight.document": 13,
+    "-weight.script": 3,
+    "+weight.script": 3,
+    "-weight.image": 1,
+    "+weight.image": 9,
+    "-weight.font": 1,
+    "+weight.font": 4,
+    "+weight.fontCount": 3,
+    "-timeToFirstByte": 2,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 12
+  },
+  "axe": {
+    "passes": 77,
+    "violations": 0
+  }
+}
