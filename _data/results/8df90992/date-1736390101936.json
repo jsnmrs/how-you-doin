@@ -1,0 +1,67 @@
+{
+  "url": "https://jasonmorris.com/bikes/bikes-and-barns/",
+  "requestedUrl": "https://jasonmorris.com/bikes/bikes-and-barns/",
+  "timestamp": 1736390212516,
+  "ranks": {
+    "hundos": 3,
+    "performance": 4,
+    "accessibility": 12,
+    "cumulative": 3
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 806.6485,
+  "firstMeaningfulPaint": 806.6485,
+  "speedIndex": 806.6485,
+  "largestContentfulPaint": 1087.6485,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.023024999667812834,
+  "timeToInteractive": 806.6485,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 28.428,
+  "weight": {
+    "summary": "5 requests • 78.8 KiB",
+    "total": 80671,
+    "image": 60100,
+    "imageCount": 3,
+    "script": 0,
+    "scriptCount": 0,
+    "document": 4584,
+    "font": 15987,
+    "fontCount": 1,
+    "stylesheet": 0,
+    "stylesheetCount": 0,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 10,
+    "+weight.total": 5,
+    "-weight.document": 6,
+    "+weight.document": 9,
+    "-weight.script": 1,
+    "+weight.script": 6,
+    "-weight.image": 5,
+    "+weight.image": 4,
+    "-weight.font": 2,
+    "+weight.font": 4,
+    "+weight.fontCount": 3,
+    "-timeToFirstByte": 1,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 11
+  },
+  "axe": {
+    "passes": 100,
+    "violations": 0
+  }
+}
