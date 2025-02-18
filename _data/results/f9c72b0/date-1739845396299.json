@@ -1,0 +1,20 @@
+{
+  "url": "https://bmxfeed.com/video",
+  "error": "Unknown error.",
+  "sidequests": {
+    "-weight.total": 14,
+    "+weight.total": 14,
+    "-weight.document": 14,
+    "+weight.document": 14,
+    "-weight.script": 6,
+    "+weight.script": 6,
+    "-weight.image": 8,
+    "+weight.image": 8,
+    "-weight.font": 5,
+    "+weight.font": 5,
+    "+weight.fontCount": 4,
+    "-timeToFirstByte": 14,
+    "-totalBlockingTime": 3,
+    "-largestContentfulPaint": 14
+  }
+}
