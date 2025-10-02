@@ -33,7 +33,7 @@
     "@11ty/eleventy": "^3.1.2",
     "@11ty/eleventy-cache-assets": "^2.3.0",
     "byte-size": "^9.0.1",
-    "chartist": "^0.11.4",
+    "chartist": "^1.5.0",
     "cross-zip": "^4.0.1",
     "dotenv": "^17.2.3",
     "fast-glob": "^3.3.3",
