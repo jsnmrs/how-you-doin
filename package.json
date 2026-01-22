@@ -37,7 +37,7 @@
     "cross-zip": "^4.0.1",
     "dotenv": "^17.2.3",
     "fast-glob": "^3.3.3",
-    "lodash": "^4.17.21",
+    "lodash": "^4.17.23",
     "performance-leaderboard": "^12.8.2",
     "short-hash": "^1.0.0",
     "speedlify-score": "^4.0.4"
